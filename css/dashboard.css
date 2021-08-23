@@ -39,11 +39,14 @@ img{
     padding: 15px;
     
     
+    
 }
 
 .three-columns .content{
-    font-size: 15px;
+    font-size: 12px;
     line-height: 20px;
+    
+    text-align: center;
     
 
 }
@@ -98,13 +101,15 @@ img{
     line-height: 20px;
     
     
+    
 
 }
 .five-columns{
-    text-align: center;
+    
     font-size: 0;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    
+    
     
     
 
@@ -114,11 +119,83 @@ img{
     width: 100%;
     max-width: 100px;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 .five-columns .content{
     font-size: 15px;
     line-height: 20px;
+    
+    
+    
+
+}
+.five-columns .content1{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    width: max-content;
+
+}
+
+
+
+.main-columns{
+    text-align: center;
+    font-size: 0;
+    
+    
+
+    
+    
+
+}
+.img-center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+.main-columns .column{
+    width: 100%;
+    
+    display: inline-block;
+    vertical-align: top;
+}
+.main-columns .content{
+    font-size: 15px;
+    line-height: 20px;
+    
+
+}
+.last-columns{
+    
+    font-size: 0;
+    padding-top: 10px;
+    
+    padding-left: 60px;
+    
+    
+    
+
+}
+
+.last-columns .column{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.last-columns .content{
+    font-size: 15px;
+    line-height: 20px;
+    
+    
     
 
 }
