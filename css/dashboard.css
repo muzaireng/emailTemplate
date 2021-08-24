@@ -173,6 +173,11 @@ img{
     
 
 }
+.main-columns a:hover{
+    background-color: rgb(8, 151, 187);
+    text-decoration: none;
+    
+}
 .last-columns{
     
     font-size: 0;
